@@ -1,0 +1,107 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+.wrap {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url('../images/sasha-set-GURzQwO8Li0-unsplash.jpg');
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text2 {
+    position: relative;
+    padding-top: 15vh;
+    text-align: center;
+}
+.h1_enter {
+    font-family: 'Poppins', sans-serif, monospace;
+    font-weight: 600;
+    color: #227C70;
+    text-shadow: 2px 3px #000;
+}
+.h1_enter:hover {
+    color: #E6E2C3;
+    transition: ease-in-out .75s;
+}
+a {
+    text-decoration: none;
+}
+.p_enter {
+    font-family: 'Poppins', monospace, sans-serif;
+    font-weight: 600;
+    color: #88A47C;
+    cursor: pointer;
+    text-shadow:
+        0.07em 0 black,
+        0 0.07em black,
+        -0.07em 0 black,
+        0 -0.07em black;
+}
+.p_enter:hover {
+    font-size: 18px;
+}
+.buttonGroup {
+    display: flex;
+    margin-bottom: -400px;
+
+}
+
+.leftButton, .rightButton {
+    background-color: rgba(23,26,32,.8);
+    height: 40px;
+    width: 256px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+    opacity: .80;
+    font-size: 16px;
+
+}
+.leftButton {
+    margin-right: 50px;
+}
+.leftButton:hover, .rightButton:hover {
+    background-color: #1C315E;
+}
+.leftText, .rightText {
+    color: white;
+    text-decoration: none;
+}
+
+.downArrow {
+    margin-top: 20px;
+    height: 40px;
+    width: 25px;
+    cursor: pointer;
+    animation: buttonBounce infinite 2s;
+}
+.downArrow:hover {
+    opacity: 75%;
+}
+
+@keyframes buttonBounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    60% {
+        transform: translateY(3px);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .buttonGroup {
+        flex-direction: column;
+        align-items: center;
+    }
+    .leftButton {
+        margin-bottom: 15px;
+        margin-right: 0;
+    }
+}
