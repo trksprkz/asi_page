@@ -7,7 +7,6 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-image: url('../images/sasha-set-GURzQwO8Li0-unsplash.jpg');
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -35,8 +34,8 @@ a {
 .p_enter {
     font-family: 'Poppins', monospace, sans-serif;
     font-weight: 600;
-    color: #88A47C;
     cursor: pointer;
+    color: #E6E2C3;
     text-shadow:
         0.07em 0 black,
         0 0.07em black,

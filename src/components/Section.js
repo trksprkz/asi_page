@@ -8,12 +8,12 @@ function Section(props) {
     <wrap>
 
 
-    <div className={styles.wrap}>
+    <div style={{ backgroundImage: `url(${props.backgroundImg})`}} className={styles.wrap} >
             <div className={styles.overlay}>
 
                 <div className={styles.text2}>
                     <h1 className={styles.h1_enter}>{props.title}</h1>
-                    <a href="https://www.tesla.com/drive"><p className={styles.p_enter}>{props.tag}</p></a>
+                    <a href="https://www.tesla.com/drive"><p style={{ color: `#${props.pColor};` }} className={styles.p_enter}>{props.tag}</p></a>
                 </div>
             </div>
 
