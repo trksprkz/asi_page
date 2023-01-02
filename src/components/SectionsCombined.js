@@ -18,7 +18,7 @@ function SectionsCombined() {
         <Section
             title="Aerial Lidar"
             h1Color="227C70"
-            pColor="#88A47C;"
+            pColor="88A47C"
             tag="Lidar Services"
             description="Order Now"
             backgroundImg="https://images.unsplash.com/photo-1612187907335-b08cbe40edd0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
@@ -48,7 +48,7 @@ function SectionsCombined() {
             title="About"
             tag="Aerial Services, Inc. is a Veteran-owned small business specializing in providing accurate, high-quality aerial surveys for a multitude of applications. (Including Lidar, Orthoimagery, Obliques, Photogrammetric Mapping, and web hosting services to planning and engineering firms, city, state, and federal governments)"
             description="About Us"
-            backgroundImg="https://repository-images.githubusercontent.com/214671270/23f88b80-ed18-11e9-8a21-0a636b193f08"
+            backgroundImg="https://i.pinimg.com/originals/04/65/8e/04658e1a724c1830587bf1e33930a339.gif"
             leftBtnText="Markets"
             rightBtnText="Careers"
         />
